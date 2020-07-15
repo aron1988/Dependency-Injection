@@ -7,6 +7,7 @@ import { AppComponent } from './app.component';
 import { ChildComponent } from './child/child.component';
 import { ParentComponent } from './parent/parent.component';
 import { Simple } from './child/simpleService';
+import { TtttService } from './tttt.service';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,7 @@ import { Simple } from './child/simpleService';
     BrowserModule,
     FormsModule
   ],
-  providers: [ Simple ],
+  providers: [ TtttService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

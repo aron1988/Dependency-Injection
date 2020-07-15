@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Simple } from './simpleService';
+import { TtttService } from '../tttt.service';
 
 @Component({
   selector: 'app-child',
@@ -8,7 +9,7 @@ import { Simple } from './simpleService';
 })
 export class ChildComponent implements OnInit {
 
-  constructor(public service:Simple) { }
+  constructor(public service:Simple,public serv:TtttService) { }
 
   ngOnInit(): void {
   }
